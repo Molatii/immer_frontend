@@ -71,7 +71,7 @@ export default async function Spectator() {
   
   return (
     <main className="min-h-screen items-center justify-center bg-white">
-      <header className="flex flex-row w-full justify-between items-center p-4 pl-8 pr-8 bg-primary">
+      <header className="flex flex-row w-full justify-between items-center p-4 pl-8 pr-8 bg-immer-orange">
         <div className=" text-center p-1">
           <h1>Back</h1>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 type EventsCardProps = {
   id: string;
   day: number;
@@ -10,7 +11,6 @@ type EventsCardProps = {
   price: number;
 };
 
-import Image from "next/image";
 
 export default function EventCard({
   id,
@@ -30,18 +30,27 @@ export default function EventCard({
           <div className="flex flex-row h-40 justify-between   pl-3 pr-3 pt-4">
             <div
               id="date-item"
-              className="flex flex-col justify-center items-center h-12 w-fit p-3 bg-secondary rounded-xl"
+              style={{
+                borderRadius: "10px",
+                background: "rgba(255, 255, 255, 0.70)",
+                backdropFilter: "blur(3px)",
+              }}
+              className="flex flex-col justify-center items-center h-12 w-fit p-3"
             >
-              <p className="text-sm text-primary  uppercase font-normal text-center">
+              <p className="text-sm not-italic text-immer-orange  uppercase font-normal text-center">
                 {day}
               </p>
-              <p className="text-sm text-primary uppercase font-normal text-center">
+              <p className="text-sm not-italic text-immer-orange uppercase font-normal text-center">
                 {month}
               </p>
             </div>
             <div
               id="icon-item"
-              className="bg-transparent h-7 w-7 rounded-2xl p-1 border-solid border-2 border-primary"
+              style={{
+                  fill: "rgba(0, 0, 0, 0.45)",
+                  strokeWidth: "2px",
+              }}
+              className="h-7 w-7 rounded-2xl p-1 border-solid border-2 border-immer-orange"
             >
               <Image
                 src="/vector-fire.svg"
@@ -80,7 +89,7 @@ export default function EventCard({
               </p>
             </div>
             <div className="pr-2 pl-2  h-12 justify-end">
-              <p className="text-primary mt-2 text-xl text-end font-semibold">
+              <p className="text-immer-orange mt-2 text-xl text-end font-semibold">
                 ${price}
               </p>
             </div>
