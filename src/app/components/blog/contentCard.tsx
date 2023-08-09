@@ -62,7 +62,7 @@ const ContentCard = ({
         </p>
       </Link>
       <div className="h-[66px]">
-        <p className="text-xs font-normal text-[#232323] pb-1 line-clamp-3 text-left ml-1">
+        <p className="text-xs font-normal text-[#232323]  line-clamp-3 text-left ml-1">
           {truncatedDetails}
         </p>
       </div>
