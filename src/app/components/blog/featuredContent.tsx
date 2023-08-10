@@ -1,4 +1,3 @@
-"use client";
 import FeatureContentButton from "./contentBtn";
 import ContentCard from "./contentCard";
 import { BtnProps } from "./demoData";

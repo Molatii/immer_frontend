@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import FirstHeroSection from "./firstHeroSection";
 import SecondHeroSection from "./secondHeroSection";

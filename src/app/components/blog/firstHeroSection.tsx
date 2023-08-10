@@ -1,5 +1,3 @@
-"use client";
-
 const FirstHeroSection = () => {
   return (
     <div id="section-1" className="w-full md:w-3/5 lg:inline-block pb-0">

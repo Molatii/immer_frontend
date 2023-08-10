@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import ContentCard from "./contentCard";
 import BloggersCard from "./bloggersCard";

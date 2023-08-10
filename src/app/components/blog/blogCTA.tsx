@@ -1,4 +1,3 @@
-"use client";
 import CtaSignUp from "./ctaSignup";
 
 type CTABgProps = {
