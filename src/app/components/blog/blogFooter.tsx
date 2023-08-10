@@ -8,7 +8,7 @@ const BlogFooter = () => {
     <footer className="bg-[#0D0D0D] md:p-12 p-4 mb-0">
       <section id="upper-footer" className="w-full">
         <div
-          className="grid gap-x-1 grid-cols-1 sm:grid-cols-2 lg:gap-x-2
+          className="grid gap-x-1 grid-cols-1 sm:grid-cols-2 lg:gap-x-2 
           text-white justify-start text-start pt-4 pb-10 p-1"
         >
           <div className="w-full flex flex-row justify-between">
@@ -24,15 +24,17 @@ const BlogFooter = () => {
                 className="flex flex-row lg:gap-1 md:gap-0 gap-0
                lg:mt-[75px] md:mt-14 mt-9 sm:pb-0 pb-8"
               >
-                <p className="lg:mr-2 md:mr-1 mr-1 sm:mt-1 mt-1 lg:text-xl  text-base
-                font-semibold not-italic">
+                <p
+                  className="lg:mr-2 md:mr-1 mr-4 lg:mt-1 md:mt-2 mt-2 lg:text-lg  text-base
+                font-semibold not-italic"
+                >
                   Follow Us
                 </p>
                 <Link href="https://www.instagram.com">
                   <Image
-                    className="lg:ml-1 ml-0"
+                    className="lg:ml-1 ml-0 mt-2"
                     src="/assets/blog/in.png"
-                    width={33}
+                    width={20}
                     height={33}
                     alt="instagram-icon"
                     priority
@@ -40,9 +42,9 @@ const BlogFooter = () => {
                 </Link>
                 <Link href="https://www.pinterest.com">
                   <Image
-                    className="lg:ml-1 ml-0"
+                    className="lg:ml-1 ml-0 mt-2"
                     src="/assets/blog/pin.png"
-                    width={33}
+                    width={20}
                     height={33}
                     alt="instagram-icon"
                     priority
@@ -50,9 +52,9 @@ const BlogFooter = () => {
                 </Link>
                 <Link href="https://www.facebook.com">
                   <Image
-                    className="lg:ml-1 ml-0"
+                    className="lg:ml-1 ml-0 mt-2"
                     src="/assets/blog/fb.png"
-                    width={33}
+                    width={20}
                     height={33}
                     alt="instagram-icon"
                     priority
@@ -60,9 +62,9 @@ const BlogFooter = () => {
                 </Link>
                 <Link href="https://www.twitter.com">
                   <Image
-                    className="lg:ml-1 ml-0"
+                    className="lg:ml-1 ml-0 mt-2"
                     src="/assets/blog/t.png"
-                    width={33}
+                    width={20}
                     height={33}
                     alt="instagram-icon"
                     priority
@@ -70,7 +72,7 @@ const BlogFooter = () => {
                 </Link>
               </div>
             </div>
-            <div className=" w-2/5 flex flex-col text-white lg:pl-20 md:pl-6 pl-8">
+            <div className="w-2/5 flex flex-col text-white lg:pl-20 md:pl-6 pl-8">
               <p className="text-xl font-semibold not-italic">About</p>
               <p className="font-medium not-italic text-base sm:mt-10 mt-5 ">
                 Our Platform

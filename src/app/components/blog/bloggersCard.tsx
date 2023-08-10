@@ -31,9 +31,10 @@ const BloggersCard = ({
   bloggerName,
   bloggerImage,
 }: BloggersProps) => {
-    const bioInfo = bio.split("\n").slice(0, 2).join("\n");
-    const aspectRatio = 24 / 24;
-    const calculatedHeight = Math.round(24/ aspectRatio);
+  const bioInfo = bio.split("\n").slice(0, 2).join("\n");
+  const aspectRatio = 24 / 24;
+  const calculatedHeight = Math.round(24 / aspectRatio);
+
   const socialMediaLinks = [
     { icon: <FaFacebook />, url: facebookLink },
     { icon: <FaTwitter />, url: twitterLink },

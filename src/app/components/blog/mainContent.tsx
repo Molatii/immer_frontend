@@ -61,7 +61,9 @@ const MainContent = ({
               Popular Bloggers
             </p>
             <Link href="/bloggers">
-              <p>View All</p>
+              <p className="font-normal text-[#1E1E1E] text-base not-italic tracking-[0.5px] leading-6">
+                View All
+              </p>
             </Link>
           </div>
           <div className="grid gap-x-3 md:grid-cols-2 lg:grid-cols-1 lg:gap-x-3 pl-1 pr-1">

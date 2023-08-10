@@ -170,3 +170,28 @@ export const BloggersData: BloggersProps = [
     bloggerImage: "/assets/blog/b5.svg",
   },
 ];
+
+
+export type NavigationProps = {
+  NavName: string;
+  NavAddress: string;
+}[];
+
+export const NavigationList: NavigationProps = [
+  {
+    NavName: "Home",
+    NavAddress: "/home",
+  },
+  {
+    NavName: "Blog",
+    NavAddress: "/blog",
+  },
+  {
+    NavName: "Our Platform",
+    NavAddress: "/our-platform",
+  },
+  {
+    NavName: "About Us",
+    NavAddress: "/about-us",
+  },
+];

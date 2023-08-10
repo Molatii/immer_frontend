@@ -3,30 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-
-type NavigationProps = {
-  NavName: string;
-  NavAddress: string;
-}[];
-
-const NavigationList: NavigationProps = [
-  {
-    NavName: "Home",
-    NavAddress: "/home",
-  },
-  {
-    NavName: "Blog",
-    NavAddress: "/blog",
-  },
-  {
-    NavName: "Our Platform",
-    NavAddress: "/our-platform",
-  },
-  {
-    NavName: "About Us",
-    NavAddress: "/about-us",
-  },
-];
+import { NavigationList } from "./demoData";
 
 export default function BlogHeader() {
   const NavList = NavigationList;
